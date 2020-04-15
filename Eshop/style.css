@@ -1,0 +1,155 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    padding-bottom: 540px;
+    font-family: 'Fjalla One', sans-serif;
+}
+s {
+    color: red;
+}
+.fa-phone
+{
+    color: green;
+}
+.fa-arrow-up
+{
+    color: white;
+}
+.fa-stamp
+{
+    color: gold;
+}
+.fa-tools
+{
+    color: brown;
+}
+.fa-building
+{
+    color: blue;
+}
+.fa-user-check
+{
+    color: orange;
+}
+.navbar a
+{
+    text-decoration: none;
+}
+.nav-link:hover
+{
+    background: #A62A2A;
+    
+}
+.navbar-brand
+{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.navbar-brand:hover
+{
+  opacity: 1;
+}
+.active
+{
+    background: #A62A2A;
+}
+.font
+{
+    font-family: 'Slabo 27px', serif; 
+}
+.txt
+{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.quantity {
+    float: left;
+    margin-right: 15px;
+    background-color: #eee;
+    position: relative;
+    width: 80px;
+    overflow: hidden
+}
+
+.quantity input {
+    margin: 0;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    float: right;
+    color: #000;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background-color: #F6F6F6
+}
+
+.quantity .qty {
+    position: relative;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px 25px 10px 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 0;
+    background-clip: padding-box
+}
+
+.quantity .minus, .quantity .plus {
+    line-height: 0;
+    background-clip: padding-box;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-background-size: 6px 30px;
+    -moz-background-size: 6px 30px;
+    color: #bbb;
+    font-size: 20px;
+    position: absolute;
+    height: 50%;
+    border: 0;
+    right: 0;
+    padding: 0;
+    width: 25px;
+    z-index: 3
+}
+
+.quantity .minus:hover, .quantity .plus:hover {
+    background-color: #dad8da
+}
+
+.quantity .minus {
+    bottom: 0
+}
+.shopping-cart {
+    margin-top: 20px;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+@media only screen and (max-width: 950px)
+{
+}
